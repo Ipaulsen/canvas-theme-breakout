@@ -116,13 +116,13 @@ function drawBricks() {
 				context.beginPath();
 				context.rect( brickX, brickY, bricks.width, bricks.height);
 				if( j == 0) {
-					context.fillStyle = '#2980b9';
+					context.fillStyle = '#E63C2F';
 				} else if( j == 1 ) {
-					context.fillStyle = '#27ae60';
+					context.fillStyle = '#4D868E';
 				} else if( j == 2 ) {
-					context.fillStyle = '#ED8F03';
+					context.fillStyle = '#FFC700';
 				} else {
-					context.fillStyle = '#e74c3c';
+					context.fillStyle = '#414042';
 				}
 				context.fill();
 				context.closePath();
